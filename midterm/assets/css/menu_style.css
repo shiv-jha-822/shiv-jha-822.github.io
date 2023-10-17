@@ -1,0 +1,41 @@
+html {
+    background-color: #D07267;
+}
+
+.menu-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.item-box {
+    border: 5px;
+    width: 320px;
+    height: 416px;
+    background-image: linear-gradient(#D07267, #D4CBC5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Rubik;
+    color: #FFFFFF;
+}
+
+.under {
+    display: none;
+    font-family: Rubik;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.reveal {
+    display: inline-block;
+    position: relative;
+}
+
+.reveal:hover .under {
+    display: block;
+  }
