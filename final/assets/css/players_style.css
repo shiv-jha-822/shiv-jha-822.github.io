@@ -1,0 +1,93 @@
+body {
+    font-family: Poppins;
+    color: white;
+    background-color: #6880AD;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 64px;
+    position: fixed;
+    top: 0px;
+    left: 30px;
+}
+
+#corner {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#scoring {
+    font-size: 30px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
+
+#bottom {
+    position: fixed;
+    top: 400px;
+}
+
+@keyframes list {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.images .im1 {
+    position: fixed;
+    left: 25px;
+    opacity: 0;
+    animation-name: list;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.images .im2 {
+    position: fixed;
+    left: 325px;
+    opacity: 0;
+    animation-name: list;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.images .im3 {
+    position: fixed;
+    left: 625px;
+    opacity: 0;
+    animation-name: list;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+.images .im4 {
+    position: fixed;
+    left: 925px;
+    opacity: 0;
+    animation-name: list;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.images .im5 {
+    position: fixed;
+    left: 1225px;
+    opacity: 0;
+    animation-name: list;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+}

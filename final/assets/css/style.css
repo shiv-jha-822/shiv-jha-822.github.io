@@ -1,0 +1,53 @@
+body {
+    font-family: Poppins;
+    color: white;
+    background-color: #6880AD;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 64px;
+    position: fixed;
+    top: 0px;
+    left: 30px;
+}
+
+#corner {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+#sub {
+    align-items: flex-end;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+#hurts {
+    position: fixed;
+    top: 200px;
+    left: 600px;
+}
+
+#miller {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}
+
+#marshawn {
+    position: fixed;
+    top: 200px;
+    left: 1100px;
+}
